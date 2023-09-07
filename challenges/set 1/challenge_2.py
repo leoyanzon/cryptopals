@@ -5,7 +5,7 @@ def xor(input1, input2):
     output = bytes(xor_output).hex()
     return output
 
-i1 = "1c0111001f010100061a024b53535009181c"
-i2 = "686974207468652062756c6c277320657965"
-
-print(xor(i1, i2))
+if __name__ == "__main__":
+    i1 = "1c0111001f010100061a024b53535009181c"
+    i2 = "686974207468652062756c6c277320657965"
+    print(xor(i1, i2))
